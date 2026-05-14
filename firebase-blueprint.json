@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Event": {
+      "title": "Fair Event",
+      "description": "An event scheduled during the Jatre.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "time": { "type": "string", "format": "date-time" },
+        "location": { "type": "string" },
+        "type": { "type": "string", "enum": ["religious", "cultural", "sports", "other"] },
+        "status": { "type": "string", "enum": ["upcoming", "ongoing", "completed"] },
+        "description": { "type": "string" }
+      },
+      "required": ["title", "time", "type", "status"]
+    },
+    "LostFound": {
+      "title": "Lost and Found Item",
+      "description": "Report for a lost or found item at the fair.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "type": { "type": "string", "enum": ["lost", "found"] },
+        "status": { "type": "string", "enum": ["active", "resolved"] },
+        "imageUrl": { "type": "string" },
+        "contactInfo": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "description", "type", "status", "createdAt"]
+    },
+    "Marker": {
+      "title": "Map Marker",
+      "description": "A temporary festival marker (Parking, First Aid, Stall).",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "type": { "type": "string", "enum": ["parking", "first-aid", "stall", "toilet", "stage"] },
+        "lat": { "type": "number" },
+        "lng": { "type": "number" }
+      },
+      "required": ["name", "type", "lat", "lng"]
+    }
+  },
+  "firestore": {
+    "events": { "schema": "Event", "description": "Collection of fair events." },
+    "items": { "schema": "LostFound", "description": "Collection of lost and found items." },
+    "markers": { "schema": "Marker", "description": "Collection of map locations." }
+  }
+}

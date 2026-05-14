@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "429878565488",
+    "project_id": "jatreapp-fc736",
+    "storage_bucket": "jatreapp-fc736.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429878565488:android:ab778bd14a1ce3bfe1f2b5",
+        "android_client_info": {
+          "package_name": "com.charithra.nammajatreapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk6HCRS0PYAh7TeNINcbJI1dfzDf35IZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429878565488:android:74d1d61389799346e1f2b5",
+        "android_client_info": {
+          "package_name": "com.charithra.nammajatreapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk6HCRS0PYAh7TeNINcbJI1dfzDf35IZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
