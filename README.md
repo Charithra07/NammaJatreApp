@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+JATRE-NAMMA-PRIDE
+Digital Village Fair Guide Application
 
-# Run and deploy your AI Studio app
+JATRE-NAMMA-PRIDE is a smart Android and Web-based application developed to digitally manage and promote traditional village Jatre festivals in Karnataka. The application helps visitors, organizers, and local communities by providing real-time event schedules, emergency support, interactive maps, lost & found management, and cultural information in Kannada and English.
 
-This contains everything you need to run your app locally.
+The project combines Android development, Firebase services, modern web technologies, and Generative AI features to improve public safety, crowd management, and cultural engagement during large village fairs.
 
-View your app in AI Studio: https://ai.studio/apps/26bd670e-419f-46d1-b8aa-18a2d3f293b0
+Features:
+Live Event Schedule
+Displays real-time Jatre event timings
+Highlights currently ongoing events
+Supports automatic schedule updates using Firebase
 
-## Run Locally
+Lost & Found System
+Users can report lost items or persons
+Upload descriptions
 
-**Prerequisites:**  Node.js
+Emergency Support
+Emergency contact support
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+JatreApp/
+│
+├── android/                 # Android Kotlin App
+├── server/                  # Backend Server
+├── src/                     # React Frontend Source
+├── public/                  # Public Assets
+├── firebase/                # Firebase Configurations
+├── package.json             # Project Dependencies
+├── vite.config.ts           # Vite Configuration
