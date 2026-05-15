@@ -27,3 +27,33 @@ JatreApp/
 ├── firebase/                # Firebase Configurations
 ├── package.json             # Project Dependencies
 ├── vite.config.ts           # Vite Configuration
+
+Firebase Configuration:
+Create a Firebase project
+Enable:
+Authentication
+Firestore Database
+Realtime Database
+Cloud Storage
+Add google-services.json to Android app
+Configure Firebase keys in environment variables
+
+Future Enhancements:
+Multi-language support
+AI voice narration
+AR navigation
+Vendor registration
+Community photo gallery
+Multi-village support
+
+Impact of the Project:
+Improves crowd management during village fairs
+Enhances public safety
+Preserves cultural heritage digitally
+Supports rural digital inclusion
+Creates scalable smart fair management system
+
+Developed By
+JATRE-NAMMA-PRIDE 
+Made by Charithra G Ganiga
+MindMatrix VTU Internship Program
